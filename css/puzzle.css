@@ -1,0 +1,13 @@
+.puzzle_div
+{
+	position: fixed;
+	right: 0;
+	background-color: red;
+	opacity: 0;
+	width: 3%;
+	height: 3%;
+}
+#puzzle1{right:0px;}
+#puzzle2{left:0px;}
+#puzzle3{left:0px;bottom:0px;}
+#puzzle4{right:0px; bottom:0px;}

@@ -1,0 +1,9 @@
+@font-face
+{
+	font-family: "awa";
+	src: url("../../Bender.otf");
+}
+body
+{
+	font-family: "awa";
+}
