@@ -23,7 +23,7 @@ function puzzle1()
 	if(z1==10)
 	{
 		document.getElementById("BGM").src="https://music.163.com/song/media/outer/url?id=1399616170.mp3";
-		document.getElementById("BGM_TEXT").innerHTML="<small>2023/1/23 虽然音乐是我随便找的……但是……不准关闭……-> Never Gonna Give You Up</small>";
+		document.getElementById("BGM_TEXT").innerHTML="<small>2023/1/23 虽然音乐是我随便找的……但是……不准关闭……欸嘿( •̀ ω •́ )✧…………-> Never Gonna Give You Up</small>";
 	}
 }
 function puzzle2()
