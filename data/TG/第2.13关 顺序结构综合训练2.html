@@ -1,0 +1,135 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>你这代码保熟吗？包熟的啊！</title>
+	</head>
+	<body>
+
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+
+		<table>
+			<thead>
+				<th>
+					<tr>
+						<p>第1关 练习任务04-05-01 计算分数的浮点数值</p>
+					</tr>
+				</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<pre>#include<stdio.h>
+
+int main()
+{
+    double a, b;
+    scanf("%lf %lf", &a, &b);
+    printf("%.9lf", a/b);
+    return 0;
+}</pre>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+
+
+		<table>
+			<thead>
+				<th>
+					<tr>
+						<p>第2关 练习任务04-05-02 日期格式强迫症</p>
+					</tr>
+				</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<pre>#include<stdio.h>
+
+int main()
+{
+    
+    int year, month, day;
+    scanf("%d%*c%d%*c%d", &year, &month, &day);
+    printf("%4d-%02d-%02d", year < 100 ? (1900+year):year, month, day);
+    return 0;
+}</pre>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+
+
+		<table>
+			<thead>
+				<th>
+					<tr>
+						<p>第3关 练习任务04-05-03 辛巳蛇宝男</p>
+					</tr>
+				</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<pre>#include<stdio.h>
+
+int main()
+{
+    int year, month, day, gender;
+    scanf("%*6d%4d%2d%2d%*2d%1d", &year, &month, &day, &gender);
+    year == 2001 ? gender % 2 != 0 ? month == 1 ? day >= 24 ? printf("YES") : printf("NO") : printf("YES") : printf("NO") : 0;
+    year == 2002 ? gender % 2 != 0 ? month <= 2 ? day <= 11 ? printf("YES") : printf("NO") : printf("NO")  : printf("NO") : 0;
+    year ^ 2001 && year ^ 2002 ? printf("NO") : 0;
+    return 0;
+}</pre>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+
+
+		<table>
+			<thead>
+				<th>
+					<tr>
+						<p>第4关 练习任务04-05-04 捣蛋的乘法</p>
+					</tr>
+				</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<pre>#include<stdio.h>
+
+#include<stdio.h>
+
+int main()
+{
+    int a, b;
+    scanf("%d*%d", &a, &b);
+    a = a % 10 + (a % 1000 - a % 100) / 10;
+    b = (b % 100 - b % 10) / 10 + (b % 10000 - b % 1000) / 100;
+    printf("%d*%d=%d", a, b, a * b);
+    return 0;
+}</pre>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+
+
+<!-- ------------------------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+	</body>
+</html>
